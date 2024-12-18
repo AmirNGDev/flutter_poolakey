@@ -2,7 +2,7 @@ group 'ir.cafebazaar.flutter_poolakey'
 version '2.2.0'
 
 buildscript {
-    ext.kotlin_version = '1.7.10'
+    ext.kotlin_version = '1.9.20'
     ext.poolakey_version = '2.2.0'
     repositories {
         jcenter()
@@ -16,7 +16,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.0'
+        classpath 'com.android.tools.build:gradle:8.1.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -59,7 +59,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 23
         versionCode 200200
         versionName "2.2.0"
     }
